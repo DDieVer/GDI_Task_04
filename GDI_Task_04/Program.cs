@@ -70,10 +70,6 @@ namespace GDI_Task_04
         }
     
 
-
-
-
-
         static void monFace(int monType)//Вывод монстра на экран 
         {
             if(monType == 2)
@@ -231,7 +227,7 @@ namespace GDI_Task_04
                 Console.Write("> ");
                 action = Convert.ToString(Console.ReadLine());
 
-                if (action == "/")
+                if (action == "/")//Чтение действий игрока
                 {
                     PlayerAtack();
                 }
